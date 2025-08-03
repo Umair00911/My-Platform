@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | Devver - AI-Powered Freelance Platform</title>
+    <link rel="stylesheet" href="Resources.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="enterprise-nav">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="devver-logo.jpg" alt="Devver Logo">
+                <span>Resources</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#" class="nav-link">How It Works</a>
+                <a href="#" class="nav-link">Why Devver</a>
+                <a href="#" class="nav-link">What's New</a>
+                <a href="#" class="nav-link">Services</a>
+                <a href="#" class="nav-link active">Resources</a>
+                <div class="nav-search">
+                    <input type="text" placeholder="Search resources...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div class="nav-actions">
+                <a href="#" class="nav-link"><i class="fas fa-bell"></i></a>
+                <a href="#" class="nav-link"><i class="fas fa-envelope"></i></a>
+                <div class="user-avatar" style="background-image: url('https://via.placeholder.com/40x40/F3F4F6/07BE88?text=CO')"></div>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="resources-hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="ai-badge">
+                    <span><i class="fas fa-book-open"></i> Knowledge Center</span>
+                </div>
+                <h1>Devver <span class="highlight">Resources</span> Hub</h1>
+                <p class="hero-subtitle">Access guides, tutorials, and insights to maximize your Devver experience</p>
+                
+                <div class="hero-search">
+                    <input type="text" placeholder="What are you looking for?">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-search"></i> Search Resources
+                    </button>
+                </div>
+                
+                <div class="hero-tags">
+                    <span class="tag">Popular:</span>
+                    <a href="#" class="tag">Getting Started</a>
+                    <a href="#" class="tag">AI Development</a>
+                    <a href="#" class="tag">Security</a>
+                    <a href="#" class="tag">Payment</a>
+                    <a href="#" class="tag">Collaboration</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x500/F3F4F6/07BE88?text=Devver+Resources" alt="Devver Resources">
+            </div>
+        </div>
+    </section>
+
+    <!-- Resource Categories -->
+    <section class="resource-categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Resource Categories</h2>
+                <p>Find the information you need across our comprehensive resource library</p>
+            </div>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>For Clients</h3>
+                    <p>Learn how to hire top talent and manage projects effectively</p>
+                    <a href="#" class="btn btn-outline">Browse Resources</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>For Freelancers</h3>
+                    <p>Grow your business and succeed on the Devver platform</p>
+                    <a href="#" class="btn btn-outline">Browse Resources</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security & Privacy</h3>
+                    <p>Best practices for keeping your work and data secure</p>
+                    <a href="#" class="btn btn-outline">Browse Resources</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Payments</h3>
+                    <p>Everything about payments, invoices, and financial tools</p>
+                    <a href="#" class="btn btn-outline">Browse Resources</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Collaboration</h3>
+                    <p>Tools and tips for effective real-time collaboration</p>
+                    <a href="#" class="btn btn-outline">Browse Resources</a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Tools</h3>
+                    <p>Leverage Devver's AI capabilities for better results</p>
+                    <a href="#" class="btn btn-outline">Browse Resources</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Resources -->
+    <section class="featured-resources">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Resources</h2>
+                <p>Popular guides and tutorials handpicked by our team</p>
+            </div>
+            
+            <div class="resources-tabs">
+                <button class="resource-tab active" data-category="all">All Resources</button>
+                <button class="resource-tab" data-category="guides">Guides</button>
+                <button class="resource-tab" data-category="tutorials">Tutorials</button>
+                <button class="resource-tab" data-category="case-studies">Case Studies</button>
+                <button class="resource-tab" data-category="whitepapers">Whitepapers</button>
+            </div>
+            
+            <div class="resources-grid">
+                <div class="resource-card" data-category="guides">
+                    <div class="resource-badge">New</div>
+                    <div class="resource-image" style="background-image: url('https://via.placeholder.com/400x300/F3F4F6/07BE88?text=Guide')"></div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-category">Guide</span>
+                            <span class="resource-date">May 15, 2023</span>
+                        </div>
+                        <h3>Getting Started with Devver: A Complete Guide</h3>
+                        <p>Learn how to navigate the platform, hire talent, and manage projects from start to finish.</p>
+                        <div class="resource-footer">
+                            <span class="resource-time"><i class="far fa-clock"></i> 15 min read</span>
+                            <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resource-card" data-category="tutorials">
+                    <div class="resource-badge">Popular</div>
+                    <div class="resource-image" style="background-image: url('https://via.placeholder.com/400x300/F3F4F6/07BE88?text=Tutorial')"></div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-category">Tutorial</span>
+                            <span class="resource-date">April 28, 2023</span>
+                        </div>
+                        <h3>Mastering Real-Time Collaboration Tools</h3>
+                        <p>Step-by-step guide to using Devver's collaboration features for seamless teamwork.</p>
+                        <div class="resource-footer">
+                            <span class="resource-time"><i class="far fa-clock"></i> 22 min read</span>
+                            <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resource-card" data-category="case-studies">
+                    <div class="resource-image" style="background-image: url('https://via.placeholder.com/400x300/F3F4F6/07BE88?text=Case+Study')"></div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-category">Case Study</span>
+                            <span class="resource-date">June 2, 2023</span>
+                        </div>
+                        <h3>How TechCorp Scaled AI Development with Devver</h3>
+                        <p>Discover how a Fortune 500 company accelerated their AI projects using our platform.</p>
+                        <div class="resource-footer">
+                            <span class="resource-time"><i class="far fa-clock"></i> 10 min read</span>
+                            <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resource-card" data-category="whitepapers">
+                    <div class="resource-image" style="background-image: url('https://via.placeholder.com/400x300/F3F4F6/07BE88?text=Whitepaper')"></div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-category">Whitepaper</span>
+                            <span class="resource-date">March 15, 2023</span>
+                        </div>
+                        <h3>The Future of AI-Powered Freelancing</h3>
+                        <p>Our research on how AI is transforming the freelance economy and workforce.</p>
+                        <div class="resource-footer">
+                            <span class="resource-time"><i class="far fa-clock"></i> 30 min read</span>
+                            <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resource-card" data-category="guides">
+                    <div class="resource-image" style="background-image: url('https://via.placeholder.com/400x300/F3F4F6/07BE88?text=Guide')"></div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-category">Guide</span>
+                            <span class="resource-date">May 30, 2023</span>
+                        </div>
+                        <h3>Advanced Security Settings for Your Projects</h3>
+                        <p>Learn how to configure enterprise-grade security for your sensitive projects.</p>
+                        <div class="resource-footer">
+                            <span class="resource-time"><i class="far fa-clock"></i> 18 min read</span>
+                            <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resource-card" data-category="tutorials">
+                    <div class="resource-badge">Updated</div>
+                    <div class="resource-image" style="background-image: url('https://via.placeholder.com/400x300/F3F4F6/07BE88?text=Tutorial')"></div>
+                    <div class="resource-content">
+                        <div class="resource-meta">
+                            <span class="resource-category">Tutorial</span>
+                            <span class="resource-date">June 10, 2023</span>
+                        </div>
+                        <h3>Smart Matching: Find Perfect Talent Faster</h3>
+                        <p>Optimize your talent search with our AI-powered matching algorithms.</p>
+                        <div class="resource-footer">
+                            <span class="resource-time"><i class="far fa-clock"></i> 12 min read</span>
+                            <a href="#" class="resource-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="resources-cta">
+                <button class="btn btn-primary btn-lg">
+                    <i class="fas fa-book-open"></i> View All Resources
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Paths -->
+    <section class="learning-paths">
+        <div class="container">
+            <div class="section-header">
+                <h2>Structured Learning Paths</h2>
+                <p>Follow these curated paths to master specific aspects of Devver</p>
+            </div>
+            
+            <div class="paths-grid">
+                <div class="path-card">
+                    <div class="path-header">
+                        <div class="path-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Client Mastery</h3>
+                    </div>
+                    <div class="path-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Finding the Right Talent</h4>
+                                <p>Learn how to identify and hire the best professionals for your projects.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Project Setup & Management</h4>
+                                <p>Best practices for setting up and managing successful projects.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Advanced Collaboration</h4>
+                                <p>Master Devver's real-time collaboration tools for better results.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Start Learning Path</a>
+                </div>
+                
+                <div class="path-card">
+                    <div class="path-header">
+                        <div class="path-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Freelancer Success</h3>
+                    </div>
+                    <div class="path-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Profile Optimization</h4>
+                                <p>Make your profile stand out and attract more clients.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Winning Proposals</h4>
+                                <p>Craft proposals that get noticed and win projects.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Growing Your Business</h4>
+                                <p>Strategies to scale your freelance business on Devver.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Start Learning Path</a>
+                </div>
+                
+                <div class="path-card">
+                    <div class="path-header">
+                        <div class="path-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Security & Compliance</h3>
+                    </div>
+                    <div class="path-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Security Fundamentals</h4>
+                                <p>Essential security practices for all Devver users.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Advanced Protection</h4>
+                                <p>Enterprise-grade security configurations for sensitive projects.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Compliance Standards</h4>
+                                <p>Meeting GDPR, HIPAA, and other regulatory requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Start Learning Path</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="resources-cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <h2>Can't Find What You're Looking For?</h2>
+                <p>Our support team is ready to help you with any questions about using Devver</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-lg">
+                        <i class="fas fa-question-circle"></i> Contact Support
+                    </button>
+                    <button class="btn btn-outline btn-lg">
+                        <i class="fas fa-comments"></i> Community Forum
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="resources-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <img src="https://via.placeholder.com/40x40/07BE88/FFFFFF?text=DV" alt="Devver Logo">
+                    <p>Devver - AI-Powered Freelance Platform</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>For Clients</h4>
+                    <ul>
+                        <li><a href="#">How to Hire</a></li>
+                        <li><a href="#">Find Services</a></li>
+                        <li><a href="#">Project Management</a></li>
+                        <li><a href="#">Client Success Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>For Freelancers</h4>
+                    <ul>
+                        <li><a href="#">How to Get Hired</a></li>
+                        <li><a href="#">Profile Optimization</a></li>
+                        <li><a href="#">Freelancer Resources</a></li>
+                        <li><a href="#">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">What's New</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2023 Devver Inc. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Security</a>
+                    <a href="#">Status</a>
+                    <a href="#">API</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Platform Assistant -->
+    <div class="platform-assistant">
+        <button class="assistant-toggle">
+            <i class="fas fa-robot"></i>
+            <span>Devver Assistant</span>
+        </button>
+        <div class="assistant-window">
+            <div class="assistant-header">
+                <h4>Devver Assistant</h4>
+                <button class="assistant-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="assistant-messages">
+                <div class="message ai">
+                    <div class="avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Hi there! I can help you find resources or answer questions about Devver. What would you like to know?</p>
+                        <small>Just now</small>
+                    </div>
+                </div>
+            </div>
+            <div class="quick-questions">
+                <button class="quick-question">
+                    Find security guides
+                </button>
+                <button class="quick-question">
+                    Payment options
+                </button>
+                <button class="quick-question">
+                    Collaboration tools
+                </button>
+            </div>
+            <div class="assistant-input">
+                <input type="text" placeholder="Ask me anything...">
+                <button class="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="Resources.js"></script>
+</body>
+</html>
